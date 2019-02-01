@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_connect"
+        android:title="Connect"
+        android:icon="@drawable/ic_cast_black_24dp">
+
+    </item>
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/ic_mouse_black_24dp"
+        android:title="Mouse">
+
+    </item>
+    <item
+        android:id="@+id/nav_ScreenShare"
+        android:title="Utility"
+        android:icon="@drawable/utility">
+    </item>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkgray">#696969</color>
+    <color name="colorTitlebar">#1a9bfb</color>
+    <color name="colorDarkBlue">#0478b2</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightBlue">#4fbafc</color>
+    <color name="colorRed">#d34625</color>
+    <color name="colorDarkRed">#a01d08</color>
+
+</resources>

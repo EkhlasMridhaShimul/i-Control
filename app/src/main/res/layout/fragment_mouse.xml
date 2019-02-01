@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TouchMouse.MouseFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left">
+
+        <TextView
+            android:id="@+id/touchpad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/darkgray"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/scrollbar"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text=" SCROLL \n   BAR"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorLightBlue"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/leftclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:ems="20"
+            android:text="Left Button"
+            android:background="@drawable/mousebutton"/>
+        <Button
+            android:id="@+id/rightclick"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Right Button"
+            android:textAllCaps="false"
+            android:ems="20"
+            android:background="@drawable/mousebutton"/>
+    </LinearLayout>
+
+
+</FrameLayout>

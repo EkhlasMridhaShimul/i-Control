@@ -3,9 +3,9 @@ It is my university second year project developed with Java. This app can act li
 * Control your PC remotely
 * Share your desktop screen on your phone
 
-1. This app is divided into two parts
-- Server app (For desktop)
-- Mobile app (Android app)
+1. This app is divided into two parts-
+* Server app (For desktop)
+* Mobile app (Android app)
 
 Client and server create connection using TCP socket.
 
